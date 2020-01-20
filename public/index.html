@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Slideshow</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+  </head>
+  <body>
+    <textarea id="source"></textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script>
+      fetch("/slides.md").then(response => {
+        response.text().then(value => {
+          document.getElementById("source").innerHTML = value;
+          window.slideshow = remark.create();
+        });
+      });
+    </script>
+  </body>
+</html>

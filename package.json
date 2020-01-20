@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Get started with a bootstrapped remarkjs slideshow",
   "scripts": {
+    "present": "live-server ./public/ --verbose",
+    "export": "decktape remark http://127.0.0.1:8080/index.html slides.pdf"
   },
   "repository": {
     "type": "git",
@@ -13,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/aedificatorum/remarkjs-slide-starter/issues"
   },
-  "homepage": "https://github.com/aedificatorum/remarkjs-slide-starter#readme"
+  "homepage": "https://github.com/aedificatorum/remarkjs-slide-starter#readme",
+  "devDependencies": {
+    "decktape": "^2.11.0",
+    "live-server": "^1.2.1"
+  }
 }
