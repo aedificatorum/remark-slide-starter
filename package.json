@@ -1,0 +1,17 @@
+{
+  "name": "remarkjs-slide-starter",
+  "version": "1.0.0",
+  "description": "Get started with a bootstrapped remarkjs slideshow",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aedificatorum/remarkjs-slide-starter.git"
+  },
+  "author": "Aedificatorum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aedificatorum/remarkjs-slide-starter/issues"
+  },
+  "homepage": "https://github.com/aedificatorum/remarkjs-slide-starter#readme"
+}
