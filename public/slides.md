@@ -53,7 +53,7 @@ npm run present
 
 # More Information
 
-- Slideshow built with `remarkjs` - https://remark.js.com
+- Slideshow built with `remarkjs` - https://remarkjs.com
 - Served up with `live-server` - https://github.com/tapio/live-server
 - PDF exported by `decktape` - https://github.com/astefanutti/decktape
 
