@@ -1,27 +1,68 @@
 
 class: center, middle
 
-# Title
+# RemarkJS Starter Slides
 
 ---
 
-# Agenda
+# What's Inside?
 
-1. Introduction
-2. Deep-dive
-3. ...
+- Edit your slides in Markdown (complete with highlighting/preview)
+- Presentation mode with speaker notes
+- Hot reload on save
+- Export to PDF
+
+--
+
+> _Requires an internet connection to present! If you need offline support pull remarkjs & any fonts down._
 
 ---
 
-# This is a code slide
+# Getting Started
 
-```javascript
-const foo = 'bar';
-const baz = 0;
-// This is a comment in code
-/* This is a long comment */
+```bash
+git clone https://github.com/aedificatorum/remarkjs-slide-starter.git new-slides
+cd new-slides
+git remote remove origin
+npm install
+npm run present
 ```
 
 ---
 
-# Introduction
+# Modifying Content
+
+- Slides live in `public/slides.md`
+- Customise fonts in `public/styles.css`
+
+---
+
+# Presenting
+
+- Use the forward & back arrows to navigate
+- Press `c` to open a second window (great for putting on a second monitor)
+- Press `p` to open presenter mode, which shows current slide, next slides, and notes
+
+---
+
+# Exporting Slides
+
+- While running the `present` task, run `npm run export`
+
+---
+
+# More Information
+
+- Slideshow built with `remarkjs` - https://remark.js.com
+- Served up with `live-server` - https://github.com/tapio/live-server
+- PDF exported by `decktape` - https://github.com/astefanutti/decktape
+
+---
+
+# Suggestions?
+
+- https://github.com/aedificatorum/remarkjs-slide-starter
+
+--
+
+.center[.contain-image[![Continue](https://http.cat/100)]]

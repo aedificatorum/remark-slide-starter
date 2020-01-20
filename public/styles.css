@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400");
-@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono:400");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic");
 
 body {
   font-family: "Droid Serif";
@@ -14,4 +14,10 @@ h3 {
 .remark-code,
 .remark-inline-code {
   font-family: "Ubuntu Mono";
+}
+
+.contain-image > img {
+  max-width: 66%;
+  max-height: 66%;
+  object-fit: contain;
 }
