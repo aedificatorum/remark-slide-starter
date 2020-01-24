@@ -21,3 +21,11 @@ h3 {
   max-height: 66%;
   object-fit: contain;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: darkgray;
+  padding: 0.5rem;
+}
