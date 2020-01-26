@@ -1,4 +1,4 @@
-# RemarkJS Slide Starter
+# Remark Slide Starter
 
 ## Quickstart
 
