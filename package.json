@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/aedificatorum/remarkjs-slide-starter#readme",
   "devDependencies": {
-    "decktape": "^2.11.0",
+    "decktape": "^3.7.0",
     "live-server": "^1.2.1"
   }
 }
